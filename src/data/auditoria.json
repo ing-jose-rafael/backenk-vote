@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "fecha": "2026-02-02T05:48:11.157Z",
+    "coordinador": {
+      "id": "admin",
+      "nombreCoordinador": "ADMINISTRADOR",
+      "rol": "admin"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046337107",
+    "resultadoEncontrado": false
+  },
+  {
+    "id": 2,
+    "fecha": "2026-02-02T05:48:27.133Z",
+    "coordinador": {
+      "id": "admin",
+      "nombreCoordinador": "ADMINISTRADOR",
+      "rol": "admin"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346406",
+    "resultadoEncontrado": true
+  },
+  {
+    "id": 3,
+    "fecha": "2026-02-02T06:54:53.327Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346406",
+    "resultadoEncontrado": true
+  },
+  {
+    "id": 4,
+    "fecha": "2026-02-02T06:55:10.396Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346408",
+    "resultadoEncontrado": false
+  },
+  {
+    "id": 5,
+    "fecha": "2026-02-02T06:55:42.685Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346406",
+    "resultadoEncontrado": true
+  },
+  {
+    "id": 6,
+    "fecha": "2026-02-02T06:56:04.598Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346406",
+    "resultadoEncontrado": true
+  },
+  {
+    "id": 7,
+    "fecha": "2026-02-02T07:12:40.361Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346406",
+    "resultadoEncontrado": true
+  },
+  {
+    "id": 8,
+    "fecha": "2026-02-02T07:14:26.869Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346406",
+    "resultadoEncontrado": true
+  },
+  {
+    "id": 9,
+    "fecha": "2026-02-02T07:15:36.286Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346408",
+    "resultadoEncontrado": false
+  },
+  {
+    "id": 10,
+    "fecha": "2026-02-02T07:28:18.809Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346406",
+    "resultadoEncontrado": true
+  },
+  {
+    "id": 11,
+    "fecha": "2026-02-02T07:30:07.035Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346408",
+    "resultadoEncontrado": false
+  },
+  {
+    "id": 12,
+    "fecha": "2026-02-02T07:31:11.275Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346406",
+    "resultadoEncontrado": true
+  },
+  {
+    "id": 13,
+    "fecha": "2026-02-02T07:42:10.895Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346408",
+    "resultadoEncontrado": false
+  },
+  {
+    "id": 14,
+    "fecha": "2026-02-02T07:51:43.820Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046337107",
+    "resultadoEncontrado": false
+  },
+  {
+    "id": 15,
+    "fecha": "2026-02-02T07:59:48.162Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046337107",
+    "resultadoEncontrado": false
+  },
+  {
+    "id": 16,
+    "fecha": "2026-02-02T08:02:06.618Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046337107",
+    "resultadoEncontrado": false
+  },
+  {
+    "id": 17,
+    "fecha": "2026-02-02T08:09:27.360Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046337107",
+    "resultadoEncontrado": false
+  },
+  {
+    "id": 18,
+    "fecha": "2026-02-02T08:10:24.802Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046337107",
+    "resultadoEncontrado": false
+  },
+  {
+    "id": 19,
+    "fecha": "2026-02-02T08:11:06.871Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346406",
+    "resultadoEncontrado": true
+  },
+  {
+    "id": 20,
+    "fecha": "2026-02-02T08:11:19.779Z",
+    "coordinador": {
+      "id": "orlando.polo",
+      "nombreCoordinador": "ORLANDO POLO",
+      "rol": "coordinador"
+    },
+    "tipoConsulta": "cedula",
+    "parametro": "1046346406",
+    "resultadoEncontrado": true
+  }
+]

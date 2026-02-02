@@ -1,0 +1,152 @@
+[
+  {
+    "id": "admin",
+    "nombreCoordinador": "ADMINISTRADOR",
+    "password": "admin2026",
+    "rol": "admin"
+  },
+  {
+    "id": "alex.rojano",
+    "nombreCoordinador": "ALEX ROJANO",
+    "password": "alexrojano2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "argenis.cueto",
+    "nombreCoordinador": "ARGENIS CUETO",
+    "password": "argeniscueto2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "carmela.ariza",
+    "nombreCoordinador": "CARMELA ARIZA",
+    "password": "carmelaariza2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "edison.salcedo",
+    "nombreCoordinador": "EDISON SALCEDO",
+    "password": "edisonsalcedo2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "ee",
+    "nombreCoordinador": "EE",
+    "password": "ee2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "einer.escorcia",
+    "nombreCoordinador": "EINER ESCORCIA",
+    "password": "einerescorcia2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "ella.ecker",
+    "nombreCoordinador": "ELLA ECKER",
+    "password": "ellaecker2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "felix.yepes",
+    "nombreCoordinador": "FELIX YEPES",
+    "password": "felixyepes2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "gary.ecker",
+    "nombreCoordinador": "GARY ECKER",
+    "password": "garyecker2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "gustavo.ecker",
+    "nombreCoordinador": "GUSTAVO ECKER",
+    "password": "gustavoecker2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "hernando.iriarte",
+    "nombreCoordinador": "HERNANDO IRIARTE",
+    "password": "hernandoiriarte2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "jesus.areiza",
+    "nombreCoordinador": "JESUS AREIZA",
+    "password": "jesusareiza2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "jesus.jr.iriarte.ariza",
+    "nombreCoordinador": "JESUS IRIARTE ARIZA",
+    "password": "jesusiriarteariza2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "jhon.garcia",
+    "nombreCoordinador": "JHON GARCIA",
+    "password": "jhongarcia2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "jose.guerrero",
+    "nombreCoordinador": "JOSE GUERRERO",
+    "password": "joseguerrero2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "josue.cova",
+    "nombreCoordinador": "JOSUE COVA",
+    "password": "josuecova2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "juaquin.barrios",
+    "nombreCoordinador": "JUAQUIN BARRIOS",
+    "password": "juaquinbarrios2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "orlando.polo",
+    "nombreCoordinador": "ORLANDO POLO",
+    "password": "orlandopolo2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "pi.villa",
+    "nombreCoordinador": "PI VILLA",
+    "password": "pivilla2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "polo.ecker",
+    "nombreCoordinador": "POLO ECKER",
+    "password": "poloecker2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "ricardo.iriarte",
+    "nombreCoordinador": "RICARDO IRIARTE",
+    "password": "ricardoiriarte2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "robinson.villa",
+    "nombreCoordinador": "ROBINSON VILLA",
+    "password": "robinsonvilla2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "rody.utria",
+    "nombreCoordinador": "RODY UTRIA",
+    "password": "rodyutria2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "urbano.ortiz",
+    "nombreCoordinador": "URBANO ORTIZ",
+    "password": "urbanoortiz2026",
+    "rol": "coordinador"
+  }
+]

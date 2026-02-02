@@ -1,0 +1,17 @@
+{
+  "name": "api-votantes",
+  "version": "1.0.0",
+  "description": "API de consulta de votantes por cédula",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "npx nodemon src/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
