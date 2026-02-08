@@ -148,5 +148,11 @@
     "nombreCoordinador": "URBANO ORTIZ",
     "password": "urbanoortiz2026",
     "rol": "coordinador"
+  },
+  {
+    "id": "Jose.olivero",
+    "nombreCoordinador": "JOSE OLIVERO",
+    "password": "joseolivero2026",
+    "rol": "coordinador"
   }
 ]
