@@ -109,7 +109,7 @@ router.get('/votantes/cedula/:numero', autenticar, (req, res) => {
     return res.status(404).json({
       error: 'No se encontró votante con esa cédula.',
       cedula,
-      puestoVotacion: null,
+      puestoVotacion: puestoInfo,
     })
   }
 
