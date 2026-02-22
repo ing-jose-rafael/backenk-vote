@@ -3,7 +3,7 @@ const { Pool } = require('pg')
 const dbConfig = require('../config/database')
 
 class DatabaseService {
-  constructor() {
+  cconstructor() {
     this.pool = null
     this.isConnected = false
     this.retryCount = 0
@@ -15,10 +15,13 @@ class DatabaseService {
       cacheHits: 0,
     }
 
-    // Cache simple para consultas repetidas (opcional)
+    // Cache simple para consultas repetidas
     this.cache = new Map()
     this.cacheEnabled = true
     this.cacheTimeout = 5 * 60 * 1000 // 5 minutos
+
+    // Heartbeat para mantener conexión activa
+    this.heartbeatInterval = null
   }
 
   async connect() {
@@ -33,6 +36,10 @@ class DatabaseService {
         max: dbConfig.max,
         idleTimeoutMillis: dbConfig.idleTimeoutMillis,
         connectionTimeoutMillis: dbConfig.connectionTimeoutMillis,
+
+        // ✅ NUEVO: Mantener conexiones vivas
+        keepAlive: true,
+        keepAliveInitialDelayMillis: 10000,
       })
 
       await this.testConnection()
@@ -43,6 +50,9 @@ class DatabaseService {
 
       this.setupEventHandlers()
 
+      // ✅ NUEVO: Iniciar heartbeat
+      this.startHeartbeat()
+
       // Limpiar caché cada cierto tiempo
       if (this.cacheEnabled) {
         setInterval(() => this.cleanCache(), this.cacheTimeout)
@@ -51,6 +61,49 @@ class DatabaseService {
       return true
     } catch (error) {
       return this.handleConnectionError(error)
+    }
+  }
+
+  // ✅ NUEVO: Heartbeat para mantener conexión activa
+  startHeartbeat() {
+    if (this.heartbeatInterval) {
+      clearInterval(this.heartbeatInterval)
+    }
+
+    this.heartbeatInterval = setInterval(async () => {
+      if (this.isConnected && this.pool) {
+        try {
+          const client = await this.pool.connect()
+          await client.query('SELECT 1')
+          client.release()
+          console.log('💓 Heartbeat: conexión activa')
+        } catch (error) {
+          console.log('💔 Heartbeat: error, reconectando...')
+          this.isConnected = false
+          await this.connect()
+        }
+      }
+    }, 30000) // Cada 30 segundos
+  }
+
+  // ✅ NUEVO: Método para verificar si la tabla existe
+  async verificarTabla() {
+    try {
+      const result = await this.pool.query(`
+      SELECT EXISTS (
+        SELECT FROM information_schema.tables 
+        WHERE table_name = 'Atlantico_Oct2023'
+      );
+    `)
+
+      const existe = result.rows[0].exists
+      console.log(
+        `📋 Tabla Atlantico_Oct2023: ${existe ? '✅ existe' : '❌ no existe'}`,
+      )
+      return existe
+    } catch (error) {
+      console.error('❌ Error verificando tabla:', error.message)
+      return false
     }
   }
 
@@ -110,24 +163,34 @@ class DatabaseService {
   }
 
   /**
+   * En services/database.service.js - mejorar consultarCedula
    * Consulta una cédula específica en la base de datos
    * @param {string} cedula - Número de cédula a consultar
    * @returns {Promise<Object|null>} - Datos del puesto de votación o null
    */
+
   async consultarCedula(cedula) {
     if (!this.isConnected) {
       this.stats.failedQueries++
+      console.log(`⚠️ BD no disponible para cédula ${cedula}`)
       return null
     }
 
     // Limpiar cédula (eliminar espacios, puntos, etc.)
     const cedulaLimpia = cedula.toString().trim()
 
+    // Validar que sea un número
+    if (!/^\d+$/.test(cedulaLimpia)) {
+      console.log(`⚠️ Cédula inválida: ${cedulaLimpia}`)
+      return null
+    }
+
     // Verificar caché primero
     if (this.cacheEnabled && this.cache.has(cedulaLimpia)) {
       const cached = this.cache.get(cedulaLimpia)
       if (Date.now() - cached.timestamp < this.cacheTimeout) {
         this.stats.cacheHits++
+        console.log(`🎯 Cache hit para cédula ${cedulaLimpia}`)
         return cached.data
       } else {
         this.cache.delete(cedulaLimpia) // Cache expirado
@@ -137,25 +200,29 @@ class DatabaseService {
     this.stats.totalQueries++
 
     try {
+      console.log(`🔍 Consultando BD para cédula: ${cedulaLimpia}`)
+
       const query = `
-        SELECT 
-          cedula,
-          departamento,
-          municipio,
-          zona,
-          puesto_votacion,
-          direccion_puesto_votacion,
-          mesa
-        FROM "Atlantico_Oct2023"
-        WHERE cedula = $1
-        LIMIT 1
-      `
+      SELECT 
+        cedula,
+        departamento,
+        municipio,
+        zona,
+        puesto_votacion,
+        direccion_puesto_votacion,
+        mesa
+      FROM "Atlantico_Oct2023"
+      WHERE cedula = $1
+      LIMIT 1
+    `
 
       const result = await this.pool.query(query, [cedulaLimpia])
 
       this.stats.successfulQueries++
 
       if (result.rows.length > 0) {
+        console.log(`✅ Encontrado en BD: cédula ${cedulaLimpia}`)
+
         const puestoInfo = {
           departamento: result.rows[0].departamento || '',
           municipio: result.rows[0].municipio || '',
@@ -176,10 +243,17 @@ class DatabaseService {
         return puestoInfo
       }
 
+      console.log(`❌ No encontrado en BD: cédula ${cedulaLimpia}`)
       return null
     } catch (error) {
       this.stats.failedQueries++
       console.error(`❌ Error consultando cédula ${cedula}:`, error.message)
+
+      // Si el error es de conexión, marcar como desconectado
+      if (error.code === 'ECONNREFUSED' || error.code === 'ETIMEDOUT') {
+        this.isConnected = false
+      }
+
       return null
     }
   }

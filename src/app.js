@@ -102,6 +102,39 @@ app.get('/api/db-status', async (req, res) => {
   })
 })
 
+// Endpoint para verificar la tabla específica
+app.get('/api/check-table', async (req, res) => {
+  try {
+    const dbService = require('./services/database.service')
+    const existe = await dbService.verificarTabla()
+
+    // Probar una consulta de ejemplo
+    let prueba = null
+    if (existe) {
+      const resultado = await dbService.consultarCedula('1046346406')
+      prueba = resultado ? '✅ Funciona' : '❌ No devuelve datos'
+    }
+
+    res.json({
+      timestamp: new Date().toISOString(),
+      database: {
+        connected: dbService.isConnected,
+        stats: dbService.getStats(),
+      },
+      tabla: {
+        existe: existe,
+        nombre: 'Atlantico_Oct2023',
+        prueba: prueba,
+      },
+    })
+  } catch (error) {
+    res.status(500).json({
+      error: error.message,
+      stack: error.stack,
+    })
+  }
+})
+
 // 404 para rutas no encontradas
 app.use((req, res) => {
   res.status(404).json({
