@@ -104,7 +104,7 @@ class DatabaseService {
           puesto_votacion,
           direccion_puesto_votacion,
           mesa
-        FROM Atlantico_Oct2023
+        FROM "Atlantico_Oct2023"
       `
       const result = await this.pool.query(query)
       return result.rows
