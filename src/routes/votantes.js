@@ -1,12 +1,7 @@
+// routes/votantes.js
 const express = require('express')
 const router = express.Router()
-const {
-  votantes,
-  indexPorCedula,
-  total,
-  puestosVotacion,
-  puestosCargados,
-} = require('../data/loader')
+const dataService = require('../services/data.service')
 const {
   validarCredenciales,
   generarToken,
@@ -22,10 +17,6 @@ const {
 //  RUTAS PÚBLICAS  (sin token)
 // ═══════════════════════════════════════════════════════════════
 
-// ─────────────────────────────────────────────
-// POST /api/auth/login
-// Body: { "username": "orlando.polo", "password": "orlandopolo2024" }
-// ─────────────────────────────────────────────
 router.post('/auth/login', (req, res) => {
   const { username, password } = req.body || {}
 
@@ -59,10 +50,6 @@ router.post('/auth/login', (req, res) => {
   })
 })
 
-// ─────────────────────────────────────────────
-// POST /api/auth/logout
-// Header: Authorization: Bearer <token>
-// ─────────────────────────────────────────────
 router.post('/auth/logout', autenticar, (req, res) => {
   res.json({
     success: true,
@@ -71,15 +58,14 @@ router.post('/auth/logout', autenticar, (req, res) => {
 })
 
 // ═══════════════════════════════════════════════════════════════
-//  RUTAS PROTEGIDAS  (requieren token válido)
+//  RUTAS PROTEGIDAS
 // ═══════════════════════════════════════════════════════════════
 
-// ─────────────────────────────────────────────
-// GET /api/votantes/cedula/:numero
-// Header: Authorization: Bearer <token>
-// FUNCIONALIDAD: Busca en votantes Y en puestos de votación
-// ─────────────────────────────────────────────
-router.get('/votantes/cedula/:numero', autenticar, (req, res) => {
+/**
+ * GET /api/votantes/cedula/:numero
+ * Busca en votantes locales Y en base de datos PostgreSQL
+ */
+router.get('/votantes/cedula/:numero', autenticar, async (req, res) => {
   const cedula = req.params.numero.trim()
 
   if (!cedula || !/^\d+$/.test(cedula)) {
@@ -88,48 +74,52 @@ router.get('/votantes/cedula/:numero', autenticar, (req, res) => {
     })
   }
 
-  // Buscar en JSON de votantes
-  const votante = indexPorCedula.get(cedula)
+  try {
+    // Buscar en datos locales y BD
+    const resultado = await dataService.buscarPorCedula(cedula)
 
-  // Buscar en JSON de puestos de votación (si está cargado)
-  const puestoInfo = puestosCargados ? puestosVotacion.get(cedula) : null
+    // Registrar en auditoría
+    registrarConsulta({
+      coordinador: req.usuario,
+      tipoConsulta: 'cedula',
+      parametro: cedula,
+      resultadoEncontrado: !!resultado.votante,
+    })
 
-  const encontrado = !!votante
+    // Construir mensaje según fuente
+    let mensaje = ''
+    if (resultado.votante && resultado.puestoVotacion) {
+      mensaje = 'Votante encontrado en base local y puesto en BD'
+    } else if (resultado.votante) {
+      mensaje = 'Votante encontrado solo en base local'
+    } else if (resultado.puestoVotacion) {
+      mensaje = 'Votante no registrado, pero tiene puesto de votación'
+    } else {
+      return res.status(404).json({
+        error: 'No se encontró información para esta cédula',
+        cedula,
+      })
+    }
 
-  // ── Registrar en auditoria ──
-  registrarConsulta({
-    coordinador: req.usuario,
-    tipoConsulta: 'cedula',
-    parametro: cedula,
-    resultadoEncontrado: encontrado,
-  })
-
-  // Si no se encuentra en ningún lado
-  if (!encontrado && !puestoInfo) {
-    return res.status(404).json({
-      error: 'No se encontró votante con esa cédula.',
-      cedula,
-      puestoVotacion: puestoInfo,
+    res.json({
+      success: true,
+      data: resultado.votante || null,
+      puestoVotacion: resultado.puestoVotacion,
+      fuente: resultado.fuente,
+      mensaje,
+    })
+  } catch (error) {
+    console.error('❌ Error en búsqueda por cédula:', error)
+    res.status(500).json({
+      error: 'Error interno al buscar la cédula',
     })
   }
-
-  // Construir respuesta combinada
-  const respuesta = {
-    success: true,
-    data: votante || null,
-    puestoVotacion: puestoInfo || null,
-    mensaje: votante
-      ? 'El Votante se encuentra en la base de datos'
-      : 'No está en la base de datos',
-  }
-
-  res.json(respuesta)
 })
 
-// ─────────────────────────────────────────────
-// GET /api/votantes/nombre/:texto
-// Header: Authorization: Bearer <token>
-// ─────────────────────────────────────────────
+/**
+ * GET /api/votantes/nombre/:texto
+ * Búsqueda por nombre (solo datos locales)
+ */
 router.get('/votantes/nombre/:texto', autenticar, (req, res) => {
   const texto = req.params.texto.trim().toUpperCase()
 
@@ -139,13 +129,9 @@ router.get('/votantes/nombre/:texto', autenticar, (req, res) => {
     })
   }
 
-  const resultados = votantes.filter(
-    (v) => v.nombreCompleto && v.nombreCompleto.toUpperCase().includes(texto),
-  )
-
+  const resultados = dataService.buscarPorNombre(texto)
   const encontrado = resultados.length > 0
 
-  // ── Registrar en auditoria ──
   registrarConsulta({
     coordinador: req.usuario,
     tipoConsulta: 'nombre',
@@ -167,156 +153,48 @@ router.get('/votantes/nombre/:texto', autenticar, (req, res) => {
   })
 })
 
-// ─────────────────────────────────────────────
-// GET /api/votantes/stats
-// Header: Authorization: Bearer <token>
-// ─────────────────────────────────────────────
+/**
+ * GET /api/votantes/stats
+ * Estadísticas básicas
+ */
 router.get('/votantes/stats', autenticar, (req, res) => {
-  const porGrupo = {}
-  const porBarrio = {}
-  const porGenero = { M: 0, F: 0, sin_dato: 0 }
-
-  votantes.forEach((v) => {
-    const grupo = v.grupo || 'Sin grupo'
-    porGrupo[grupo] = (porGrupo[grupo] || 0) + 1
-
-    const barrio = v.barrio || 'Sin barrio'
-    porBarrio[barrio] = (porBarrio[barrio] || 0) + 1
-
-    if (v.genero === 'M') porGenero.M++
-    else if (v.genero === 'F') porGenero.F++
-    else porGenero.sin_dato++
-  })
+  const stats = dataService.getEstadisticasBasicas()
+  const status = dataService.getStatus()
 
   res.json({
     success: true,
     data: {
-      totalVotantes: total,
-      porGrupo,
-      porBarrio,
-      porGenero,
-      puestosVotacionCargados: puestosCargados ? puestosVotacion.size : 0,
+      ...stats,
+      dbConectada: status.dbStatus.isConnected,
+      cacheSize: status.dbStatus.cache.size,
     },
   })
 })
 
-// ─────────────────────────────────────────────
-// GET /api/votantes/stats/avanzadas (solo admin)
-// Estadísticas avanzadas: duplicados, tops, etc.
-// ─────────────────────────────────────────────
+/**
+ * GET /api/votantes/stats/avanzadas (solo admin)
+ */
 router.get('/votantes/stats/avanzadas', autenticar, soloAdmin, (req, res) => {
-  // ── Análisis de duplicados por cédula ──
-  const cedulasCount = {}
-  const votantesPorCedula = {}
-
-  votantes.forEach((v) => {
-    if (!v.cedula) return
-    const cedula = v.cedula.trim()
-
-    if (!cedulasCount[cedula]) {
-      cedulasCount[cedula] = 0
-      votantesPorCedula[cedula] = []
-    }
-    cedulasCount[cedula]++
-    votantesPorCedula[cedula].push(v)
-  })
-
-  // Encontrar duplicados
-  const duplicados = []
-  Object.entries(cedulasCount).forEach(([cedula, count]) => {
-    if (count > 1 && cedula !== 'nan') {
-      duplicados.push({
-        cedula,
-        repeticiones: count,
-        votantes: votantesPorCedula[cedula].map((v) => ({
-          nombreCompleto: v.nombreCompleto,
-          coordinador: v.coordinador,
-          barrio: v.barrio,
-          direccion: v.direccion,
-        })),
-      })
-    }
-  })
-
-  // Ordenar por más repetidos
-  duplicados.sort((a, b) => b.repeticiones - a.repeticiones)
-
-  // ── Top coordinadores por cantidad de votantes ──
-  const coordinadoresCount = {}
-  votantes.forEach((v) => {
-    const coord = v.coordinador || 'Sin coordinador'
-    coordinadoresCount[coord] = (coordinadoresCount[coord] || 0) + 1
-  })
-
-  const topCoordinadores = Object.entries(coordinadoresCount)
-    .map(([coordinador, cantidad]) => ({ coordinador, cantidad }))
-    .sort((a, b) => b.cantidad - a.cantidad)
-    .slice(0, 10)
-
-  // ── Top barrios por cantidad de votantes ──
-  const barriosCount = {}
-  votantes.forEach((v) => {
-    const barrio = v.barrio || 'Sin barrio'
-    barriosCount[barrio] = (barriosCount[barrio] || 0) + 1
-  })
-
-  const topBarrios = Object.entries(barriosCount)
-    .map(([barrio, cantidad]) => ({ barrio, cantidad }))
-    .sort((a, b) => b.cantidad - a.cantidad)
-    .slice(0, 10)
-
-  // ── Top líderes por cantidad de votantes ──
-  const lideresCount = {}
-  votantes.forEach((v) => {
-    const lider = v.lider || 'Sin líder'
-    lideresCount[lider] = (lideresCount[lider] || 0) + 1
-  })
-
-  const topLideres = Object.entries(lideresCount)
-    .map(([lider, cantidad]) => ({ lider, cantidad }))
-    .sort((a, b) => b.cantidad - a.cantidad)
-    .slice(0, 10)
-
-  // ── Resumen general ──
-  const cedulasUnicas = Object.keys(cedulasCount).filter(
-    (c) => c !== 'nan',
-  ).length
-  const totalDuplicados = duplicados.length
-  const votantesDuplicados = duplicados.reduce(
-    (sum, d) => sum + d.repeticiones,
-    0,
-  )
+  const stats = dataService.getEstadisticasAvanzadas()
+  const status = dataService.getStatus()
 
   res.json({
     success: true,
     data: {
-      resumen: {
-        totalVotantes: total,
-        cedulasUnicas,
-        totalDuplicados,
-        votantesDuplicados,
-        porcentajeDuplicados: ((totalDuplicados / cedulasUnicas) * 100).toFixed(
-          2,
-        ),
-        puestosVotacionCargados: puestosCargados ? puestosVotacion.size : 0,
+      ...stats,
+      dbStatus: {
+        conectada: status.dbStatus.isConnected,
+        consultas: status.dbStatus.queries,
+        cache: status.dbStatus.cache,
       },
-      duplicados: duplicados.slice(0, 20), // Top 20 más duplicados
-      topCoordinadores,
-      topBarrios,
-      topLideres,
+      rendimiento: status.consultas,
     },
   })
 })
 
-// ═══════════════════════════════════════════════════════════════
-//  RUTAS ADMIN  (solo rol = admin)
-// ═══════════════════════════════════════════════════════════════
-
-// ─────────────────────────────────────────────
-// GET /api/auditoria
-// Query params opcionales: coordinadorId, desde, hasta
-// Ejemplo: /api/auditoria?coordinadorId=orlando.polo&desde=2026-02-01
-// ─────────────────────────────────────────────
+/**
+ * GET /api/auditoria (solo admin)
+ */
 router.get('/auditoria', autenticar, soloAdmin, (req, res) => {
   const filtros = {
     coordinadorId: req.query.coordinadorId || null,
