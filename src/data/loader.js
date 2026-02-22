@@ -1,20 +1,30 @@
-const path = require("path");
-const fs = require("fs");
+// data/loader.js - Adaptador para mantener compatibilidad
+const dataService = require('../services/data.service')
 
-// Cargar el JSON una sola vez al iniciar
-const dataPath = path.join(__dirname, "..", "votantes.json");
-const votantes = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
-
-// Crear un Map indexado por cédula para búsqueda rápida O(1)
-const indexPorCedula = new Map();
-votantes.forEach((v) => {
-  if (v.cedula) {
-    indexPorCedula.set(v.cedula.trim(), v);
-  }
-});
+// Inicializar automáticamente
+dataService.initialize().catch(console.error)
 
 module.exports = {
-  votantes,
-  indexPorCedula,
-  total: votantes.length,
-};
+  // Votantes
+  get votantes() {
+    return dataService.votantes
+  },
+  get indexPorCedula() {
+    return dataService.indexPorCedula
+  },
+  get total() {
+    return dataService.votantes.length
+  },
+
+  // Puestos
+  get puestosVotacion() {
+    return dataService.puestosVotacion
+  },
+  get puestosCargados() {
+    return dataService.puestosCargados
+  },
+
+  // Métodos
+  cargarPuestosDesdeDB: () => dataService.cargarPuestosDesdeDB(),
+  getStatus: () => dataService.getStatus(),
+}
