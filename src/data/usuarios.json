@@ -154,5 +154,17 @@
     "nombreCoordinador": "JOSE OLIVERO",
     "password": "joseolivero2026",
     "rol": "coordinador"
+  },
+  {
+    "id": "Ornela.morales",
+    "nombreCoordinador": "Ornela Morales",
+    "password": "ornelamorales2026",
+    "rol": "coordinador"
+  },
+  {
+    "id": "Shakira.iriarte",
+    "nombreCoordinador": "SHAKIRA IRIARTE",
+    "password": "shakirairiarte2026",
+    "rol": "coordinador"
   }
 ]
