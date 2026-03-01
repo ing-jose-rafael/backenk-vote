@@ -28,7 +28,7 @@ router.post('/auth/login', (req, res) => {
 
   if (!username || !password) {
     return res.status(400).json({
-      error: 'Se requieren username y password en el body.',
+      error: 'Se requieren username y password en el body.ddd',
     })
   }
 
@@ -87,47 +87,82 @@ router.get('/votantes/cedula/:numero', autenticar, async (req, res) => {
     })
   }
 
+  // Buscar en base local
   const votante = indexPorCedula.get(cedula)
-  // Peticion a la api para obtener el lugar de votacion del votante
-  // Crear una copia del objeto votante para no modificar el original
-  const votanteData = { ...votante }
+  let datosExternos = null
 
-  // Consultar la API externa para obtener el puesto de votación
-  // o usa un valor fijo: 'tu_token'
+  // Consultar API externa (siempre se hace)
+  // o un valor fijo
   try {
     const response = await axios.get(
-      `http://elector-api-env-1.eba-zzscmszg.us-east-2.elasticbeanstalk.com/api/Elector/${cedula}/${tokenExterno}`,
+      `http://elector-api-env-1.eba-zzscmszg.us-east-2.elasticbeanstalk.com/api/Elector/${cedula}/J7o9S2eRaF5aE3lA8cQ1zB6yE`,
     )
-
-    // Verificar que la respuesta tenga datos
     if (response.data && response.data.data) {
-      votanteData.puestoVotacion = response.data.data
-    } else {
-      votanteData.puestoVotacion = null
+      datosExternos = response.data.data
     }
   } catch (error) {
     console.error('Error al consultar API externa:', error.message)
-    votanteData.puestoVotacion = null // Si falla, no incluimos información
+    // Si falla, datosExternos sigue siendo null
   }
 
-  const encontrado = !!votante
-
-  // ── Registrar en auditoria ──
+  // Registrar auditoría (independientemente del resultado)
   registrarConsulta({
     coordinador: req.usuario,
     tipoConsulta: 'cedula',
     parametro: cedula,
-    resultadoEncontrado: encontrado,
+    resultadoEncontrado: !!votante,
   })
 
-  if (!encontrado) {
+  // CASO 1: EL VOTANTE EXISTE EN BASE LOCAL
+  if (votante) {
+    // Copia del votante local para no modificar el original
+    const respuesta = { ...votante }
+
+    if (datosExternos) {
+      // Aplanar campos de la API externa
+      respuesta.departamento = datosExternos.nombre_departamento
+      respuesta.municipio = datosExternos.nombre_localidad
+      respuesta.zona = datosExternos.nombre_zona
+      respuesta.puesto_votacion = datosExternos.nombre_puesto
+      // La dirección del puesto no viene en la API, la omitimos (o la pones como null si quieres)
+      // respuesta.direccion_puesto_votacion = null;
+      respuesta.mesa = datosExternos.mesa
+
+      // Incluir el objeto completo de la API
+      respuesta.puestoVotacion = datosExternos
+      respuesta._merge = 'both'
+    } else {
+      respuesta._merge = 'local_only'
+    }
+
+    return res.json({ success: true, data: respuesta })
+  }
+
+  // CASO 2: VOTANTE NO EXISTE EN BASE LOCAL
+  if (datosExternos) {
+    // Aplanar campos de la API externa
+    datosExternos.departamento = datosExternos.nombre_departamento
+    datosExternos.municipio = datosExternos.nombre_localidad
+    datosExternos.zona = datosExternos.nombre_zona
+    datosExternos.puesto_votacion = datosExternos.nombre_puesto
+    // La dirección del puesto no viene en la API, la omitimos (o la pones como null si quieres)
+    // respuesta.direccion_puesto_votacion = null;
+
+    // datosExternos._merge = 'left_only'
+    // Devolvemos 404 pero incluimos los datos de la API
+    return res.status(201).json({
+      success: false,
+      error: 'No se encontró votante con esa cédula.',
+      cedula,
+      data: datosExternos,
+    })
+  } else {
+    // No existe ni en local ni en API externa
     return res.status(404).json({
       error: 'No se encontró votante con esa cédula.',
       cedula,
-      data: votanteData.puestoVotacion,
     })
   }
-  res.json({ success: true, data: votanteData })
 })
 
 // ─────────────────────────────────────────────

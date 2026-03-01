@@ -13,7 +13,7 @@ usuarios.forEach((u) => usuariosPorId.set(u.id, u))
 // ── Token store en memoria ───────────────────────────────────
 // Map:  token  →  { usuarioId, nombreCoordinador, rol, createdAt }
 const tokensActivos = new Map()
-const TOKEN_DURACION_MS = 1000 * 60 * 60 * 10 // 4 horas
+const TOKEN_DURACION_MS = 1000 * 60 * 60 * 4 // 4 horas
 
 // ── Generar token ────────────────────────────────────────────
 function generarToken(usuario) {
