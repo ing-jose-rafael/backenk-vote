@@ -110,7 +110,7 @@
     "grupo": "INTERNO"
   },
   {
-    "nombreCompleto": "FIDEL  ORTIZ OSPINO",
+    "nombreCompleto": "FIDEL ORTIZ OSPINO",
     "cedula": "905641",
     "direccion": "calle 8 #4-04",
     "barrio": "centro",
@@ -7055,16 +7055,6 @@
     "direccion": "calle 8 # 6-16",
     "barrio": "centro",
     "celular": 3113310426,
-    "lider": "DONALDO CASTILLO",
-    "coordinador": "COMANDANTE",
-    "grupo": "COMANDANTE"
-  },
-  {
-    "nombreCompleto": "GUILLERMO FERNANDEZ",
-    "cedula": "8815137",
-    "direccion": "CALLE 4 # 5-23",
-    "barrio": "CHIMBA",
-    "celular": 3205646336,
     "lider": "DONALDO CASTILLO",
     "coordinador": "COMANDANTE",
     "grupo": "COMANDANTE"
@@ -17890,7 +17880,7 @@
     "grupo": "COMANDANTE"
   },
   {
-    "nombreCompleto": "LEIDIS ISABEL JIMÉNEZ ESCORCIA",
+    "nombreCompleto": "MILEIDIS ISABEL JIMÉNEZ ESCORCIA",
     "cedula": "1046340831",
     "direccion": "kra 15#15-54",
     "barrio": "si nos dejan",
@@ -22165,9 +22155,9 @@
     "direccion": "CALLE 3 # 4 - 75",
     "barrio": "CHIMBAL ",
     "celular": 3017658528,
-    "lider": "Joaquin Barrios",
-    "coordinador": "POLO ECKER",
-    "grupo": "POLO ECKER"
+    "lider": "ALEXANDRA CORONEL",
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "ILIANIS JUDITH RUIZ ALMANZA",
@@ -22775,9 +22765,9 @@
     "direccion": "calle 4#4-13",
     "barrio": "chimba ",
     "celular": 3233662614,
-    "lider": "Jose Castillo",
-    "coordinador": "COMANDANTE",
-    "grupo": "COMANDANTE"
+    "lider": "JESUS AREIZA",
+    "coordinador": "JESUS AREIZA",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "ISABEL CRISTINA VILLA CARREÑO",
@@ -33715,8 +33705,8 @@
     "direccion": "CALLE 10 #13 - 62",
     "barrio": "BARRIO ABAJO",
     "celular": 3245319621,
-    "lider": "NATASHA ZAPATA",
-    "coordinador": "COMANDANTE",
+    "lider": "Orlanys Chirino",
+    "coordinador": "ORLANDO POLO",
     "grupo": "COMANDANTE"
   },
   {
@@ -34925,9 +34915,9 @@
     "direccion": "CALLE 11 ",
     "barrio": "B.ABAJO",
     "celular": 3225902959,
-    "lider": "ORLANDO POLO",
-    "coordinador": "ORLANDO POLO",
-    "grupo": "COMANDANTE"
+    "lider": "EMANUEL AREIZA",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "EBI MANUEL AREVALO FIGUEROA",
@@ -38315,9 +38305,9 @@
     "direccion": "Cra 5 # 2a-28",
     "barrio": "Chimba ",
     "celular": 3229422193,
-    "lider": "RICARDO IRIARTE",
-    "coordinador": "RICARDO IRIARTE",
-    "grupo": "INTERNO"
+    "lider": "ELLA ECKER ",
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "FRAY ALBERTO TORRENEGRA DE LEON",
@@ -41165,7 +41155,7 @@
     "direccion": "CALLE 10# 12_23",
     "barrio": "MEDIO",
     "celular": 3046691720,
-    "lider": "Roland Junior Villa",
+    "lider": "OLGA BARRIO",
     "coordinador": "POLO ECKER",
     "grupo": "POLO ECKER"
   },
@@ -50126,7 +50116,7 @@
     "barrio": "Mocana",
     "celular": 3137464956,
     "lider": "orlando polo ",
-    "coordinador": "orlando polo",
+    "coordinador": "ORLANDO POLO",
     "grupo": "COMANDANTE"
   },
   {
@@ -50136,7 +50126,7 @@
     "barrio": "Mocana",
     "celular": 3137464956,
     "lider": "orlando polo ",
-    "coordinador": "orlando polo",
+    "coordinador": "ORLANDO POLO",
     "grupo": "COMANDANTE"
   },
   {
@@ -50146,7 +50136,7 @@
     "barrio": "VILLA ANDA LUCIA ",
     "celular": 3215812112,
     "lider": "jesus areiza ",
-    "coordinador": "jesus areiza",
+    "coordinador": "JESUS AREIZA",
     "grupo": "POLO ECKER"
   },
   {
@@ -50156,7 +50146,7 @@
     "barrio": "GALLERA ",
     "celular": 3113154337,
     "lider": "jesus areiza ",
-    "coordinador": "jesus areiza",
+    "coordinador": "JESUS AREIZA",
     "grupo": "POLO ECKER"
   },
   {
@@ -50166,7 +50156,7 @@
     "barrio": "GALLERA ",
     "celular": 3113154337,
     "lider": "jesus areiza ",
-    "coordinador": "jesus areiza",
+    "coordinador": "JESUS AREIZA",
     "grupo": "POLO ECKER"
   },
   {
@@ -50186,7 +50176,7 @@
     "barrio": "CHIMBA ",
     "celular": 3126589839,
     "lider": "BRENDIS PEREZ",
-    "coordinador": "jesus areiza",
+    "coordinador": "JESUS AREIZA",
     "grupo": "POLO ECKER"
   },
   {
@@ -50288,5 +50278,645 @@
     "lider": "SANDRA SANTANA",
     "coordinador": "ORNELA MORALES",
     "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "RAFAEL PÉREZ CANTILLO",
+    "cedula": "1143150614",
+    "direccion": "Calle16sur #45-178",
+    "barrio": "Barrio Abajo  ",
+    "celular": 3011570359,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "JOHANA  MENDOZA AVILA",
+    "cedula": "1046345406",
+    "direccion": "Calle165#45-178",
+    "barrio": "Barrio Abajo  ",
+    "celular": 3011570359,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "OLGA BARRIOS TAPIAS ",
+    "cedula": "22642907",
+    "direccion": "Calle #6-173",
+    "barrio": "Barrio Centro ",
+    "celular": 3216267437,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "ORIANA PACHECO BARRIOS ",
+    "cedula": "1044213846",
+    "direccion": "Calle #6-173",
+    "barrio": "Barrio Centro ",
+    "celular": 3016044534,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "ANDREA TAPIAS PÁEZ",
+    "cedula": "22482191",
+    "direccion": "Calle10#10-84",
+    "barrio": "Barrio Abajo",
+    "celular": 3117117624,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "ANA BARRIOS TAPIAS ",
+    "cedula": "1045713454",
+    "direccion": "Calle10#10-84",
+    "barrio": "Barrio Abajo",
+    "celular": 3117117624,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "JOSÉ NAYIT BARRIOS TAPIAS ",
+    "cedula": "1046338114",
+    "direccion": "Calle10#10-84",
+    "barrio": "Barrio Abajo ",
+    "celular": 3117117624,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "YONIS  PEREZ CERPA",
+    "cedula": "8816709",
+    "direccion": "Kra1b#1-158",
+    "barrio": "Villa Andalucía ",
+    "celular": 3235744270,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "CARMEN CANO PAEZ ",
+    "cedula": "22483401",
+    "direccion": "Calle12kra11#11-13",
+    "barrio": "Barrio Abajo",
+    "celular": 3045950210,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "MARÍA TERESA CANO PEREZ ",
+    "cedula": "22483413",
+    "direccion": "Calle12kra11#11-13",
+    "barrio": "Barrio Abajo",
+    "celular": 3045950210,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "MARYENIS  CANTILLO VILLA",
+    "cedula": "22483188",
+    "direccion": "Calle16sur#45-178",
+    "barrio": "Barrio Abajo",
+    "celular": 3011570359,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "ANGELICA CANO MEDINA ",
+    "cedula": "1044619218",
+    "direccion": "Calle12kra11#11-13",
+    "barrio": "Barrio Abajo",
+    "celular": 3045950210,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "JULIETH VANESSA CARILLO IGLEISAS ",
+    "cedula": "1045745369",
+    "direccion": "Calle16sur#45-178",
+    "barrio": "Barrio Abajo",
+    "celular": 3011570359,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "JASELYS MARIA VILLA CANO",
+    "cedula": "1046343877",
+    "direccion": "Calle12kra11#11-13",
+    "barrio": "Barrio Abajo",
+    "celular": 3045950210,
+    "lider": "OLGA BARRIOS",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "MARIBIS JOSEFINA PINO SALCEDO",
+    "cedula": "1046337104",
+    "direccion": "CARRERA 2A #7-36",
+    "barrio": "ANDALUCIA",
+    "celular": 3148590995,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "JANETH ESTHER RODRIGUEZ VILLA",
+    "cedula": "22482636",
+    "direccion": "CALLE 10 # 11-64",
+    "barrio": "BARRIO ABAJO ",
+    "celular": 3024255009,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "YEIDER MANUEL GOMEZ NIÑO",
+    "cedula": "1193033076",
+    "direccion": "CALLE 3A#5-35",
+    "barrio": "CHIMBA ",
+    "celular": 3007286291,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "JAIDER  MONTERO VELASQUEZ",
+    "cedula": "1148707021",
+    "direccion": "CALLE  10 #11- 15",
+    "barrio": "BARRIO ABAJO ",
+    "celular": 3002028015,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "EFRENG ALBERTO CANTILLO TAPIAS",
+    "cedula": "8816026",
+    "direccion": "CALLE 8 # 2 -34 ",
+    "barrio": "PORTAL",
+    "celular": 3113120728,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "MAICOL ESTIBEN GUERRERO MEJIA",
+    "cedula": "1046336361",
+    "direccion": "CALLE  11 # 9-27",
+    "barrio": "BARRIO ABAJO ",
+    "celular": 3005803025,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "SHAYRA CAROLINA ARROYO OROZCO",
+    "cedula": "1046337295",
+    "direccion": "CALLE 3 # 5-29",
+    "barrio": "CHIMBA ",
+    "celular": 3128552333,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "LUIS ANGEL SARMIENTO SARMIENTO",
+    "cedula": "1044936594",
+    "direccion": "CALLE 11 #10- 64",
+    "barrio": "BARRIO ABAJO ",
+    "celular": 3005269066,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "NOREIDA  RIVERA GONZALEZ",
+    "cedula": "1046342282",
+    "direccion": "CALLE 11 #10- 64",
+    "barrio": "BARRIO ABAJO ",
+    "celular": 3005269066,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "JORGE ENRIQUE ARIZA MORELO",
+    "cedula": "1046338540",
+    "direccion": "CALLE 11 #10- 64",
+    "barrio": "BARRIO ABAJO ",
+    "celular": 3005269066,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "JOSE ANGEL PEREZ CARREÑO",
+    "cedula": "1046343354",
+    "direccion": "CALLE  3#5-29",
+    "barrio": "CHIMBA ",
+    "celular": 3128552323,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "CAROLAY VANESA JIMENEZ MOSQUERA",
+    "cedula": "1046337483",
+    "direccion": "CALLE 11# 12 - 44",
+    "barrio": "BARRIO ABAJO ",
+    "celular": 3004295530,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "LUZ NEYDIS TAPIAS GARCIA ",
+    "cedula": "1082068458",
+    "direccion": "CALLE 11# 12 - 44",
+    "barrio": "BARRIO ABAJO ",
+    "celular": 3004295530,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "INGRITH DEL CARMEN MENDOZA UTRIA",
+    "cedula": "22483126",
+    "direccion": "CALLE 10 #10-44",
+    "barrio": "BARRIO ABAJO ",
+    "celular": 3004295530,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "FELIN ALBERTO VASQUEZ VILORIA",
+    "cedula": "8816267",
+    "direccion": "SI NOS DEJAN ",
+    "barrio": "SI NOSDEJAN ",
+    "celular": 3004295530,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "ANA HORTENCIA RIQUETT CANTILLO",
+    "cedula": "1046336309",
+    "direccion": "CALLE 15 # 7 -45",
+    "barrio": "POLONUEVO",
+    "celular": 3122531162,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "KATERINE DEL ROSARIO MOSQUERA CALVO",
+    "cedula": "22736811",
+    "direccion": "CALLE 15 # 7 -45",
+    "barrio": "POLONUEVO",
+    "celular": 3122531162,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "JOSE VARELA CANTILLO ",
+    "cedula": "8816800",
+    "direccion": "CALLE 15 # 7 -45",
+    "barrio": "POLONUEVO",
+    "celular": 3122531162,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "LUIS EDUARDO RICO PALMERA",
+    "cedula": "1002097591",
+    "direccion": "CALLE 15# 8-33",
+    "barrio": "POLONUEVO",
+    "celular": 3122531162,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "JORGE ENRIQUE OROZCO CARRILLO ",
+    "cedula": "8816822",
+    "direccion": "CARRERA 10#9-44",
+    "barrio": "CENTRO",
+    "celular": 3015975028,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": " YELITSA GONZALEZ SANJUANELO",
+    "cedula": "1046346506",
+    "direccion": "CALLE 7# 3-88",
+    "barrio": "CENTRO ",
+    "celular": 3008303079,
+    "lider": "JOSUE COVA",
+    "coordinador": "JOSUE COVA",
+    "grupo": "INTERNO"
+  },
+  {
+    "nombreCompleto": "SANDRA ALSENDRA FONTALVO",
+    "cedula": "57418779",
+    "direccion": "CALLE 4 KR 3A-55",
+    "barrio": "GALLERA",
+    "celular": 3106172813,
+    "lider": "ORLANDO POLO",
+    "coordinador": "ORLANDO POLO",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "ANDERSON ESTRADA ALSENDRA",
+    "cedula": "1002185173",
+    "direccion": "CALLE 4 KR 3A-55",
+    "barrio": "GALLERA",
+    "celular": 3205613128,
+    "lider": "ORLANDO POLO",
+    "coordinador": "ORLANDO POLO",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "ROBERTO BARRAGAN  CARRILLO",
+    "cedula": "8816501",
+    "direccion": "CALLE 4 KR 3A-55",
+    "barrio": "GALLERA",
+    "celular": 3103683974,
+    "lider": "ORLANDO POLO",
+    "coordinador": "ORLANDO POLO",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "YORJAIS DANIEL HERRERA MENDOZA",
+    "cedula": "1046337445",
+    "direccion": "Calle 3A#315",
+    "barrio": "Chimba",
+    "celular": 3244442956,
+    "lider": "JESUS AREIZA",
+    "coordinador": "JESUS AREIZA",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "ADOLFO RAFAEL ECKER ZAMBRANO",
+    "cedula": "8817149",
+    "direccion": "CALLE 8 # 9 - 87",
+    "barrio": "CENTRO",
+    "celular": 3114114840,
+    "lider": "KEILA OROZCO",
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "YOLANIS DEL CARMEN PADILLA PEDROZO",
+    "cedula": "1046339288",
+    "direccion": "calle 11#  8 - 48",
+    "barrio": "ABAJO ",
+    "celular": "302 1515384",
+    "lider": "GREISY MERCADO",
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "CAROLOS ANDRES PELAEZ ZOLANO ",
+    "cedula": "1007205094",
+    "direccion": "CALLE 6 # 8 - 54 ",
+    "barrio": "CENTRO ",
+    "celular": 3043950534,
+    "lider": "IBIS RODRIGUEZ",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "DIANA CAROLINA CASTRO MUÑOZ",
+    "cedula": "1047358357",
+    "direccion": "Calle 8#730",
+    "barrio": "Centro ",
+    "celular": 3006718684,
+    "lider": "NERYS CUETO",
+    "coordinador": "ARGENIS CUETO",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "JOSE DAVID ESCORCIA GARCIA ",
+    "cedula": "1047345424",
+    "direccion": "Calle 8 #730",
+    "barrio": "Centro ",
+    "celular": 3012480454,
+    "lider": "NERYS CUETO",
+    "coordinador": "ARGENIS CUETO",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "GEINER JOSE ARIZA CARREÑO",
+    "cedula": "1002097510",
+    "direccion": "CALLE 12 KR 9",
+    "barrio": "P.NUEVO",
+    "celular": 3001095502,
+    "lider": "ORLANDO POLO",
+    "coordinador": "ORLANDO POLO",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "SAHARA NUÑES MURILLO",
+    "cedula": "32652818",
+    "direccion": "CALLE 11 # 8 - 64 ",
+    "barrio": "CENTRO ",
+    "celular": 3216875100,
+    "lider": "HERNANDO IRIARTE",
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "DILMA MARIA MURILLO TORRENEGRA",
+    "cedula": "22481225",
+    "direccion": "CALLE 11 # 8 - 64 ",
+    "barrio": "CENTRO ",
+    "celular": 3216875100,
+    "lider": "HERNANDO IRIARTE",
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "RAFAEL ENRIQUE CASTILLO CARREÑO",
+    "cedula": "8815697",
+    "direccion": "CALLE 9 # 3A - 56 ",
+    "barrio": "PORTAL DEL SOL ",
+    "celular": 3009483815,
+    "lider": "HERNANDO IRIARTE",
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "ANA TERESA GALLARDO HERRERA",
+    "cedula": "22482312",
+    "direccion": "CALLE 9 # 3A - 56 ",
+    "barrio": "PORTAL DEL SOL ",
+    "celular": 3009483815,
+    "lider": "HERNANDO IRIARTE",
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "AURILAY  CABARCAS GARCIA",
+    "cedula": "1046336795",
+    "direccion": "CAMBUCHE ",
+    "barrio": "SANTA LUCIA 2 ",
+    "celular": "NO TIENE ",
+    "lider": "HERNANDO IRIARTE",
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "ROY ROBER CARATT NIÑO",
+    "cedula": "8817365",
+    "direccion": "CAMBUCHE ",
+    "barrio": "COMBUCHE ",
+    "celular": "NO TIENE ",
+    "lider": "HERNANDO IRIARTE",
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "YOIL DAVID TORRENEGRA TORRES",
+    "cedula": "1046340442",
+    "direccion": "Andalucía",
+    "barrio": "Andalucía",
+    "celular": 3115409614,
+    "lider": "GERSON RIQUETH",
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "YULIETH PAOLA NIÑO CANO",
+    "cedula": "1046338075",
+    "direccion": "CALLE 10 # 12 - 64",
+    "barrio": "ABAJO ",
+    "celular": 3022230535,
+    "lider": "IBIS RODRIGUEZ",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "JOEL POLO CARREÑO",
+    "cedula": "1002097566",
+    "direccion": "CALLE 7 # 7 17 ",
+    "barrio": "B.CENTRO",
+    "celular": 3148596925,
+    "lider": "ORLANDO POLO",
+    "coordinador": "ORLANDO POLO",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "LUIS ENRIQUE ANGULA MERCADO ",
+    "cedula": "72160397",
+    "direccion": "CALLE 10 # 10 - 79 ",
+    "barrio": "ABAJO ",
+    "celular": 3242343819,
+    "lider": "GARIS ECKER",
+    "coordinador": "GARIS ECKER",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "SENAIDA ZENITH ROJANO HERRERA",
+    "cedula": "22482543",
+    "direccion": "KR 8 # 13 23",
+    "barrio": "P.NUEVO",
+    "celular": 3117386192,
+    "lider": "ORLANDO POLO",
+    "coordinador": "ORLANDO POLO",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "DAIRIS  ROJANO ROJANO",
+    "cedula": "1002096668",
+    "direccion": "KR 8 # 13 23",
+    "barrio": "P.NUEVO",
+    "celular": 3023230132,
+    "lider": "ORLANDO POLO",
+    "coordinador": "ORLANDO POLO",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "DORAINES HERRERA POLO ",
+    "cedula": "1046346740",
+    "direccion": "CALLE 15 # 9 - 50 ",
+    "barrio": "PUEBLO NUEVO ",
+    "celular": 3135426188,
+    "lider": "EMANUEL AREIZA",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "MISHEL ANDREA AGUDELO GARCIA",
+    "cedula": "1007127473",
+    "direccion": "Calle 5 # 2-106",
+    "barrio": "ALGODONAL ",
+    "celular": 3233391856,
+    "lider": "MARIALYS AREVALO",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "MARIA ALEJANDRA AVILA CANTILLO",
+    "cedula": "1046339062",
+    "direccion": "CALLE 9 # 13 - 78",
+    "barrio": "ABAJO ",
+    "celular": 3013583156,
+    "lider": "ARNALDO ARROYO",
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "ZENAIDA JUDITH CANTILLO JIMENEZ",
+    "cedula": "22483769",
+    "direccion": "CALLE 9 # 13 - 78",
+    "barrio": "ABAJO ",
+    "celular": 3013583156,
+    "lider": "ARNALDO ARROYO",
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
+  },
+  {
+    "nombreCompleto": "DEYSI MILENA NIÑO ARROYO",
+    "cedula": "44191386",
+    "direccion": "CALLE 9 ",
+    "barrio": "Barrio Abajo",
+    "celular": null,
+    "lider": "OLGA BARRIO",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "MIRLEYDIS JUDITH FARFÁN NIÑO  ",
+    "cedula": "1046336358",
+    "direccion": "CALLE 10",
+    "barrio": "Barrio Abajo",
+    "celular": null,
+    "lider": "OLGA BARRIO",
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
+  },
+  {
+    "nombreCompleto": "RITA MATILDE CANTILLO UTRIA",
+    "cedula": "22480800",
+    "direccion": "calle 11# 11-51",
+    "barrio": "ABAJO",
+    "celular": null,
+    "lider": "ALEXANDRA CORONEL",
+    "coordinador": "COMANDANTE",
+    "grupo": "POLO ECKER"
   }
 ]
