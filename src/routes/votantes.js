@@ -88,7 +88,8 @@ router.get('/votantes/cedula/:numero', autenticar, async (req, res) => {
   }
 
   // Buscar en base local
-  const votante = indexPorCedula.get(cedula)
+  const votante = indexPorCedula.get(cedula.toString())
+
   let datosExternos = null
 
   // Consultar API externa (siempre se hace)
