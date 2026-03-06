@@ -875,9 +875,9 @@
     "direccion": "CL 11B # 1-44",
     "barrio": "MOCANA",
     "celular": 3207471863,
-    "lider": "ADRIANA ARIZA",
-    "coordinador": "CARMELA ARIZA",
-    "grupo": "INTERNO"
+    "lider": "Fredis Villa",
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "CIRIA MARGARITA HERRERA OROZCO",
@@ -1425,9 +1425,9 @@
     "direccion": null,
     "barrio": "MOKANA",
     "celular": 3002741213,
-    "lider": "ADRIANA ARIZA",
-    "coordinador": "CARMELA ARIZA",
-    "grupo": "INTERNO"
+    "lider": "Fredis Villa",
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "MARIA CARRILLO BELLO",
@@ -11735,9 +11735,9 @@
     "direccion": "CALLE 11 ",
     "barrio": "B.ABAJO",
     "celular": 3225902959,
-    "lider": "EMANUEL AREIZA",
-    "coordinador": "POLO ECKER",
-    "grupo": "POLO ECKER"
+    "lider": "ORLANDO POLO",
+    "coordinador": "ORLANDO POLO",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "VERLIDES ESTHER CARREÑO APARICIO",
@@ -23365,7 +23365,7 @@
     "direccion": "calle 10#9-146",
     "barrio": "Los Olivos ",
     "celular": 3042917262,
-    "lider": "Jose Castillo",
+    "lider": "JORGE FIGUEROA",
     "coordinador": "COMANDANTE",
     "grupo": "COMANDANTE"
   },
@@ -27275,7 +27275,7 @@
     "direccion": "EL BROM ",
     "barrio": "EL BROM ",
     "celular": 3113227493,
-    "lider": "Juvenal Valencia",
+    "lider": "Fredis Villa",
     "coordinador": "COMANDANTE",
     "grupo": "COMANDANTE"
   },
@@ -29235,9 +29235,9 @@
     "direccion": "CALLE 3#3-41 ",
     "barrio": "CENTRO",
     "celular": 3226494241,
-    "lider": "LICEY ORTEGA",
-    "coordinador": "JOSUE COVA",
-    "grupo": "INTERNO"
+    "lider": "GUSTAVO ECKER",
+    "coordinador": "GUSTAVO ECKER",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "JUAN RAFAEL MARTINEZ FONSECA",
@@ -29595,7 +29595,7 @@
     "direccion": "CALLE 7 # 9 -59",
     "barrio": "CENTRO",
     "celular": 3147722653,
-    "lider": "Lisbeth Cantillo",
+    "lider": "JORGE FIGUEROA",
     "coordinador": "POLO ECKER",
     "grupo": "POLO ECKER"
   },
@@ -46485,9 +46485,9 @@
     "direccion": "calle 8 # 1b-56",
     "barrio": "progreso ",
     "celular": 3016693349,
-    "lider": "URBANO ORTIZ",
-    "coordinador": "URBANO ORTIZ",
-    "grupo": "INTERNO"
+    "lider": "GUSTAVO ECKER",
+    "coordinador": "GUSTAVO ECKER",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "ROBER RODRÍGUEZ BERMUDES",
@@ -46965,9 +46965,9 @@
     "direccion": "calle 8 # 1b-56",
     "barrio": "progreso ",
     "celular": 3016693349,
-    "lider": "URBANO ORTIZ",
-    "coordinador": "URBANO ORTIZ",
-    "grupo": "INTERNO"
+    "lider": "GUSTAVO ECKER",
+    "coordinador": "GUSTAVO ECKER",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "MARIA LUISA ORTIZ BARBOZA",
@@ -49201,7 +49201,7 @@
   },
   {
     "nombreCompleto": "JULIO CESAR JIMENEZ GUERRERO",
-    "cedula": null,
+    "cedula": "8817277",
     "direccion": "CALLE 8 # 8-30",
     "barrio": "CENTRO",
     "celular": 3014050325,
@@ -52706,8 +52706,8 @@
     "barrio": "Gallera ",
     "celular": " 314 5372879",
     "lider": "RICARDO IRIARTE ",
-    "coordinador": "RICARDO IRIARTE ",
-    "grupo": "INTERNO "
+    "coordinador": "RICARDO IRIARTE",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "LUIS ALBERTO JORDAN BARRAGAN",
@@ -52716,8 +52716,8 @@
     "barrio": "MOCANA ",
     "celular": 3116584764,
     "lider": "JOSE GUERRERO  ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "RAFAEL ENRIQUE VILLA RIVERA",
@@ -52726,8 +52726,8 @@
     "barrio": "CHIMBA",
     "celular": 3105037674,
     "lider": "ELLA ECKER ",
-    "coordinador": "ELLA ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "JUAN BROCHERO MARTÍNEZ",
@@ -52736,8 +52736,8 @@
     "barrio": "CHIMBA",
     "celular": 3014554546,
     "lider": "RAFA OLIVO",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "MANUEL AGUSTIN GUERRERO VARGAS",
@@ -52746,8 +52746,8 @@
     "barrio": "PRIMAVERA ",
     "celular": 3207469354,
     "lider": "RANDYS AREVALO ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "ORLANDO MANUEL POLO CARREÑO",
@@ -52756,8 +52756,8 @@
     "barrio": "ALGODONAL",
     "celular": 3054076789,
     "lider": "EVA VILLA ",
-    "coordinador": "ROBINSON VILLA ",
-    "grupo": "INTERNO "
+    "coordinador": "ROBINSON VILLA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "CLIMACO  SARABIA CARREÑO",
@@ -52766,8 +52766,8 @@
     "barrio": "ALGODONAL",
     "celular": 3113290637,
     "lider": "EVA VILLA ",
-    "coordinador": "ROBINSON VILLA ",
-    "grupo": "INTERNO "
+    "coordinador": "ROBINSON VILLA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "LUIS ALBERTO OROZCO CARREÑO",
@@ -52776,8 +52776,8 @@
     "barrio": "ALGODONAL",
     "celular": 3106050841,
     "lider": "OLQUIN APARICIO",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JUAN  APARICIO GARCIA",
@@ -52786,8 +52786,8 @@
     "barrio": "ALGODONAL",
     "celular": 3113290637,
     "lider": "EVA VILLA ",
-    "coordinador": "ROBINSON VILLA ",
-    "grupo": "INTERNO "
+    "coordinador": "ROBINSON VILLA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JOSE LUIS FONSECA CABANCAS ",
@@ -52796,8 +52796,8 @@
     "barrio": "SOLEDAD ",
     "celular": null,
     "lider": "MEYER PAYARES ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "JOSE ANTONIO POLO ESCORCIA",
@@ -52806,8 +52806,8 @@
     "barrio": "CENTRO ",
     "celular": 3148125470,
     "lider": "EVA VILLA ",
-    "coordinador": "ROBINSON VILLA ",
-    "grupo": "INTERNO "
+    "coordinador": "ROBINSON VILLA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "CARLOS ENRIQUE BARRIOS JIMENEZ",
@@ -52816,8 +52816,8 @@
     "barrio": "FE EN DIOS",
     "celular": 3016764780,
     "lider": "JOSE OLIVERO ",
-    "coordinador": "JOSE OLIVERO ",
-    "grupo": "INTERNO "
+    "coordinador": "JOSE OLIVEROS",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "LORENZO NIÑO VILLA",
@@ -52827,7 +52827,7 @@
     "celular": 3016313516,
     "lider": "EDINSON SALCEDO",
     "coordinador": "EDINSON SALCEDO",
-    "grupo": "COMANDANTE "
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "JESUS ENRIQUE POLO SANJUAN",
@@ -52836,8 +52836,8 @@
     "barrio": "CHIMBA ",
     "celular": 3204235090,
     "lider": "JOSE CUETO ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "JOSE IGNACIO FIGUEROA FARFAN",
@@ -52847,7 +52847,7 @@
     "celular": 3023169947,
     "lider": "EDINSON SALCEDO",
     "coordinador": "EDINSON SALCEDO",
-    "grupo": "COMANDANTE "
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "EDWIN ENRIQUE SALCEDO OLIVO",
@@ -52856,8 +52856,8 @@
     "barrio": "CENTRO ",
     "celular": 3136086139,
     "lider": "EVA VILLA ",
-    "coordinador": "ROBINSON VILLA ",
-    "grupo": "INTERNO "
+    "coordinador": "ROBINSON VILLA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JAVIER HUMBERTO PINO RUIZ",
@@ -52876,8 +52876,8 @@
     "barrio": "CHIMBA ",
     "celular": 3207606163,
     "lider": "EDIER MARTINEZ ",
-    "coordinador": "JESUS AREIZA ",
-    "grupo": "POLO ECKER "
+    "coordinador": "JESUS AREIZA",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "GREFFI JOSE APARICIO CANO",
@@ -52886,8 +52886,8 @@
     "barrio": "CHIMBA",
     "celular": 3146549127,
     "lider": "JORGE ESCORCIA",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "ARNOVIS LUIS CARREÑO APARICIO",
@@ -52896,8 +52896,8 @@
     "barrio": "ALGODONAL",
     "celular": 3113290637,
     "lider": "EVA VILLA ",
-    "coordinador": "ROBINSON VILLA ",
-    "grupo": "INTERNO "
+    "coordinador": "ROBINSON VILLA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "MANUEL DIONICIO ORTEGA DIAZ",
@@ -52906,8 +52906,8 @@
     "barrio": "centro",
     "celular": 3136455954,
     "lider": "RAFA OLIVO",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JONI  CARREÑO MARTINEZ",
@@ -52916,8 +52916,8 @@
     "barrio": "PROGRESO",
     "celular": 3045677073,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JOSE DEL CARMEN SALAS GUTIERREZ",
@@ -52926,8 +52926,8 @@
     "barrio": "Barrio abajo ",
     "celular": " 300 8026419",
     "lider": "CLARIBEL ALMANZA ",
-    "coordinador": "RICARDO IRIARTE ",
-    "grupo": "INTERNO "
+    "coordinador": "RICARDO IRIARTE",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "MARCOS MADRID TAMAYO ",
@@ -52936,8 +52936,8 @@
     "barrio": "SANTA LUCIA ",
     "celular": 3012655247,
     "lider": "MIRELVIS GARCIA ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "JOAQUIN GUILLERMO PEREZ MERCADO",
@@ -52946,8 +52946,8 @@
     "barrio": "Algodonal",
     "celular": 3215208700,
     "lider": "JORGE ESCORCIA",
-    "coordinador": "JORGE ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "HENRY ORTIZ MONTERO",
@@ -52956,8 +52956,8 @@
     "barrio": "FE EN DIOS",
     "celular": 3126105420,
     "lider": "YILDA CASTRO ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "LIDIA ESTHER MERCADO DE GOMEZ",
@@ -52967,7 +52967,7 @@
     "celular": 3005932000,
     "lider": "EDINSON SALCEDO",
     "coordinador": "EDINSON SALCEDO",
-    "grupo": "COMANDANTE "
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "DULFA ESTHER OSPINO DE ESCORCIA",
@@ -52976,8 +52976,8 @@
     "barrio": "PUEBLO NUEVO ",
     "celular": "NO TIENE ",
     "lider": "KATY MOSQUERA ",
-    "coordinador": "ELLA ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "CARMOCINA  ARROYO PACHECO",
@@ -52986,8 +52986,8 @@
     "barrio": "PUEBLO NUEVO ",
     "celular": 3112102140,
     "lider": "YILDA CASTRO ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "MARIA FRANCISCA OROZCO DE CANTILLO",
@@ -52996,8 +52996,8 @@
     "barrio": "b.abajo",
     "celular": 3022718964,
     "lider": "ANGELICA CANTILLO",
-    "coordinador": "ORLANDO POLO ",
-    "grupo": "COMANDANTE "
+    "coordinador": "ORLANDO POLO",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "DUVIS MARIA ROJANO CUETO",
@@ -53006,8 +53006,8 @@
     "barrio": "ABAJO ",
     "celular": 3126298097,
     "lider": "JOSE CUETO ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "EDITH MARIA GONZALEZ DE PINO",
@@ -53016,8 +53016,8 @@
     "barrio": null,
     "celular": null,
     "lider": "ELLA ECKER ",
-    "coordinador": "ELLA ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "SILFA JUDITH ARAGON OROZCO",
@@ -53026,8 +53026,8 @@
     "barrio": "BARRIO ABAJO",
     "celular": 3224553076,
     "lider": "JORGE ARMANDO ESCORCIA",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "LILIANA JUDITH VILLA TORRES",
@@ -53036,8 +53036,8 @@
     "barrio": "PORTAL DEL SOL",
     "celular": 3122156695,
     "lider": "EVA VILLA ",
-    "coordinador": "ROBINSON VILLA ",
-    "grupo": "INTERNO "
+    "coordinador": "ROBINSON VILLA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "EVA VILLA HERRERA ",
@@ -53046,8 +53046,8 @@
     "barrio": "ALGODONAL ",
     "celular": 3114157871,
     "lider": "EVA VILLA ",
-    "coordinador": "ROBINSON VILLA ",
-    "grupo": "INTERNO "
+    "coordinador": "ROBINSON VILLA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "BETY  JIMENEZ CANTILLO",
@@ -53056,8 +53056,8 @@
     "barrio": "FE EN DIOS",
     "celular": 3205338852,
     "lider": "YILDA CASTRO ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "ENEVIS MARIA VILLA VASQUEZ",
@@ -53066,8 +53066,8 @@
     "barrio": "CHIMBA",
     "celular": 3105037674,
     "lider": "ELLA ECKER ",
-    "coordinador": "ELLA ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "ESTEIRA LUZ MERCADO POLO",
@@ -53076,8 +53076,8 @@
     "barrio": "Chimba ",
     "celular": " 301 7363578",
     "lider": "RICARDO IRIARTE ",
-    "coordinador": "RICARDO IRIARTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "RICARDO IRIARTE",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "DULFA ESTHER ESCORCIA OSPINO",
@@ -53086,8 +53086,8 @@
     "barrio": "PUEBLO NUEVO ",
     "celular": 3226267164,
     "lider": "KATY MOSQUERA ",
-    "coordinador": "ELLA ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "RITA MARIA POLO VILLA",
@@ -53096,8 +53096,8 @@
     "barrio": "Pueblo Nuevo",
     "celular": "313 5426188",
     "lider": "EMANUEL AREIZA ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "ARSOLIMA ROSA MERCADO CANTILLO",
@@ -53106,8 +53106,8 @@
     "barrio": "barrio abajo",
     "celular": 3004965936,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "MAYRA  MARTINEZ ARIZA",
@@ -53116,8 +53116,8 @@
     "barrio": "CENTRO ",
     "celular": 3003220032,
     "lider": "JORGE ARMANDO ESCORCIA",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "YEINIS VALENCIA OSPINO ",
@@ -53126,8 +53126,8 @@
     "barrio": "CHIMBA",
     "celular": 3105037674,
     "lider": "ELLA ECKER ",
-    "coordinador": "ELLA ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "ARLEY CUERVO JIMENEZ",
@@ -53137,7 +53137,7 @@
     "celular": 3045287192,
     "lider": "ADRIANA ARIZA ",
     "coordinador": "CARMELA ARIZA",
-    "grupo": "INTERNO "
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JOSE LUIS ALVAREZ JARAMILLO ",
@@ -53146,8 +53146,8 @@
     "barrio": "BARRIO ABAJO",
     "celular": 3014158092,
     "lider": "JORGE ARMANDO ESCORCIA",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "SANTIAGO BARRIO MATUTE",
@@ -53156,8 +53156,8 @@
     "barrio": "PROGRESO ",
     "celular": 3009481833,
     "lider": "KATY MOSQUERA ",
-    "coordinador": "ELLA ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "ELINA ESTER MONTES ESCORCIA",
@@ -53166,8 +53166,8 @@
     "barrio": "ALGODONAL ",
     "celular": 3145814108,
     "lider": "MIRELVIS GARCIA ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "JOHAN MANUEL YEPEZ FUENTES ",
@@ -53176,8 +53176,8 @@
     "barrio": "GALLERA",
     "celular": 3023827722,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "ALEXIS CHARRI PADILLA",
@@ -53186,8 +53186,8 @@
     "barrio": "GALLERA",
     "celular": 3023827722,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "DAGUIS JOSE HERRERA POLO",
@@ -53196,8 +53196,8 @@
     "barrio": "Pueblo Nuevo",
     "celular": " 321 7600791",
     "lider": "EMANUEL AREIZA ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "MAYLEEN JUDITH NIÑO MARTINEZ",
@@ -53206,8 +53206,8 @@
     "barrio": "CENTRO ",
     "celular": 3001878332,
     "lider": "JORGE ARMANDO ESCORCIA",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "YOLEISY PAOLA MERCADO MOSQUERA",
@@ -53216,8 +53216,8 @@
     "barrio": "ABAJO ",
     "celular": 3042161079,
     "lider": "EVA VILLA ",
-    "coordinador": "ROBINSON VILLA ",
-    "grupo": "INTERNO "
+    "coordinador": "ROBINSON VILLA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "LUIS JOSE ARROYO MERCADO",
@@ -53226,8 +53226,8 @@
     "barrio": "CHIMBA",
     "celular": 3017202721,
     "lider": "RANDYS AREVALO ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "EMER JOSE CUETO GOMEZ",
@@ -53236,8 +53236,8 @@
     "barrio": "ALGODÓNAL ",
     "celular": 3018558027,
     "lider": "JORGE ARMANDO ESCORCIA",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "SANDRA PATRICIA CHARRIS PADILLA",
@@ -53246,8 +53246,8 @@
     "barrio": "GALLERA",
     "celular": 3023827722,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "KARINA CANTILLO HOYOS",
@@ -53256,8 +53256,8 @@
     "barrio": "barrio abajo",
     "celular": 3004965936,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "DORAYNNE MARGARITA CANTILLO HOYOS",
@@ -53266,8 +53266,8 @@
     "barrio": "barrio abajo",
     "celular": 3004965936,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "YUSGLEIDYS MARÍA PATRÓN OCANDO",
@@ -53276,8 +53276,8 @@
     "barrio": "Pueblo Nuevo",
     "celular": "301 3912916",
     "lider": "EMANUEL AREIZA ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "JUAN DIEGO NIEBLES VILLA",
@@ -53286,8 +53286,8 @@
     "barrio": "centro ",
     "celular": 3114247974,
     "lider": "GREISY MERCADO ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "DAYNER  POLO TAPIAS",
@@ -53296,8 +53296,8 @@
     "barrio": "ALGODONAL ",
     "celular": 3145154062,
     "lider": "MIRELVIS GARCIA ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "BRAYAN GARCIA VILLA",
@@ -53306,8 +53306,8 @@
     "barrio": "ALGODONAL",
     "celular": 3107910062,
     "lider": "LEONARDO GARCIA",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JUAN DAVID CARRETERO POLO",
@@ -53317,7 +53317,7 @@
     "celular": null,
     "lider": "EDINSON SALCEDO",
     "coordinador": "EDINSON SALCEDO",
-    "grupo": "COMANDANTE "
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "NATALY DEL CARMEN MEDINA CASTILLO",
@@ -53326,8 +53326,8 @@
     "barrio": "BARRIO ABAJO ",
     "celular": 3212462842,
     "lider": "RONALD ESCORCIA ",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "RAFAEL DE JESUS OLIVO ORTEGA",
@@ -53336,8 +53336,8 @@
     "barrio": "primaver",
     "celular": 3058795153,
     "lider": "RAFA OLIVO",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JUAN CAMILO RIVERA ORTIZ",
@@ -53346,8 +53346,8 @@
     "barrio": "CASITAS BLANCA ",
     "celular": 3243065539,
     "lider": "RONALDO IRIARTE ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "GREIDER JOSE FARFAN ESCORCIA",
@@ -53356,8 +53356,8 @@
     "barrio": "GALLERA ",
     "celular": 3226056998,
     "lider": "ROBERTO ARIZA ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "PEDRO NEL MONTERROSA GONZALEZ",
@@ -53367,7 +53367,7 @@
     "celular": 3107273370,
     "lider": "EDINSON SALCEDO",
     "coordinador": "EDINSON SALCEDO",
-    "grupo": "COMANDANTE "
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": " DISLIANIS JUDITH HERRERA POLO ",
@@ -53376,8 +53376,8 @@
     "barrio": "Pueblo Nuevo",
     "celular": "313 5426188 ",
     "lider": "EMANUEL AREIZA ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "SANDER  CARREÑO CANO",
@@ -53386,8 +53386,8 @@
     "barrio": "ALGODONAL",
     "celular": 3244995567,
     "lider": "JORGE ESCORCIA",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "DAYANA ALCIRA ROMERO CANTILLO",
@@ -53396,8 +53396,8 @@
     "barrio": "barrio abajo",
     "celular": 3004965936,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JULIO CESAR LUNA",
@@ -53407,7 +53407,7 @@
     "celular": null,
     "lider": "EDINSON SALCEDO",
     "coordinador": "EDINSON SALCEDO",
-    "grupo": "COMANDANTE "
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "JOHAN ALBERTO MERCADO OROZCO",
@@ -53416,8 +53416,8 @@
     "barrio": "Chimba ",
     "celular": " 314 8582052",
     "lider": "MARIA JOSE ACUÑA ",
-    "coordinador": "RICARDO IRIARTE ",
-    "grupo": "INTERNO "
+    "coordinador": "RICARDO IRIARTE",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "ANA VILLA CARREÑO",
@@ -53426,8 +53426,8 @@
     "barrio": "BARRIO ABAJO",
     "celular": 3014158092,
     "lider": "JORGE ARMANDO ESCORCIA",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "LEYDIS  MUÑOZ RIVERA",
@@ -53436,8 +53436,8 @@
     "barrio": "CHIMBA ",
     "celular": 3025410830,
     "lider": "RANDYS AREVALO ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "LINA MARCELA GOMEZ POLO",
@@ -53446,8 +53446,8 @@
     "barrio": "PROGRESO ",
     "celular": "NO TIENE ",
     "lider": "KATY MOSQUERA ",
-    "coordinador": "ELLA ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "TAHINA ANDREA PINO VILLA",
@@ -53466,8 +53466,8 @@
     "barrio": "CENTRO ",
     "celular": 3207561161,
     "lider": "JOSE GUERRERO  ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "MARIO MANUEL BERMUDEZ SANJUANELO",
@@ -53476,8 +53476,8 @@
     "barrio": "GALLERA",
     "celular": 3023827722,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "DAVINSON BROCHERO POLO",
@@ -53486,8 +53486,8 @@
     "barrio": "CHIMBA",
     "celular": 3045848982,
     "lider": "RAFA OLIVO",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JAIDER  PEREZ RIVERA",
@@ -53497,7 +53497,7 @@
     "celular": 3126211138,
     "lider": "LUCIA HERNANDEZ ",
     "coordinador": "CARMELA ARIZA",
-    "grupo": "INTERNO "
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JOSE DAVID MERCADO SALCEDO",
@@ -53506,8 +53506,8 @@
     "barrio": null,
     "celular": null,
     "lider": "ELLA ECKER ",
-    "coordinador": "ELLA ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "MARIELA ESTHER RUIZ MOLINARES",
@@ -53516,8 +53516,8 @@
     "barrio": "ABAJO ",
     "celular": 3113150237,
     "lider": "FRANCISCO CARRILLO ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "IRAEL DAVID SANCHEZ BARBOZA ",
@@ -53526,8 +53526,8 @@
     "barrio": "CENTRO ",
     "celular": 3115684593,
     "lider": "ZULLY BERNAL ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "TIVISAY  CANTILLO CASTRO",
@@ -53536,8 +53536,8 @@
     "barrio": "BARRIO ABAJO",
     "celular": 3147623626,
     "lider": "RONALD ESCORCIA ",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JULIETH CAROLINA BROCHERO POLO",
@@ -53546,8 +53546,8 @@
     "barrio": "primavera",
     "celular": 3014554546,
     "lider": "RAFA OLIVO",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "JHON BARRIOS MARTINEZ",
@@ -53556,8 +53556,8 @@
     "barrio": "BARRIO ABAJO",
     "celular": 3242419098,
     "lider": "JORGE ARMANDO ESCORCIA ",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "EIMER PEREZ LABARCA ",
@@ -53566,8 +53566,8 @@
     "barrio": "PUEBLO NUEVO ",
     "celular": 3005060093,
     "lider": "EVA VILLA ",
-    "coordinador": "ROBINSON VILLA ",
-    "grupo": "INTERNO "
+    "coordinador": "ROBINSON VILLA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "MARIANELA  MOLINARES DE LEON",
@@ -53576,8 +53576,8 @@
     "barrio": "BARRIO ABAJO",
     "celular": 3225453076,
     "lider": "JORGE ARMANDO ESCORCIA",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "YEFRI FARFAN ESCORCIA ",
@@ -53586,8 +53586,8 @@
     "barrio": "PUEBLO NUEVO",
     "celular": 3145974191,
     "lider": "YILDA CASTRO ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "SUGEY ADRIANA ZABALETA OSPINO",
@@ -53596,8 +53596,8 @@
     "barrio": "MOCANA",
     "celular": 3216601348,
     "lider": "JOSE PADILLA",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "NOELIS DEL CARMEN GARCIA POLO",
@@ -53606,8 +53606,8 @@
     "barrio": "ALGODONAL ",
     "celular": 3216255040,
     "lider": "MIRELVIS GARCIA ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "WUENDIS TATIANA PINO CANO",
@@ -53617,7 +53617,7 @@
     "celular": 3045287192,
     "lider": "ADRIANA ARIZA ",
     "coordinador": "CARMELA ARIZA",
-    "grupo": "INTERNO "
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "EDIRLEM MARIA VILLA POLO",
@@ -53626,8 +53626,8 @@
     "barrio": "barrio abajo",
     "celular": 3004965936,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "ANA TEREZA RODRIGUEZ MUÑOZ",
@@ -53636,8 +53636,8 @@
     "barrio": "CENTRO ",
     "celular": 3125417045,
     "lider": "JOSE GUERRERO  ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "ANGEL MANUEL CORTES ALVARES",
@@ -53646,8 +53646,8 @@
     "barrio": "P.NUEVO",
     "celular": 3152889230,
     "lider": "ORLANDO  POLO",
-    "coordinador": "ORLANDO POLO ",
-    "grupo": "COMANDANTE "
+    "coordinador": "ORLANDO POLO",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "ANGUIE LUCIA RODRIGUEZ MUÑOZ",
@@ -53656,8 +53656,8 @@
     "barrio": "CENTRO ",
     "celular": 3207561161,
     "lider": "JOSE GUERRERO  ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "FABIAN GONZALEZ VILLA ",
@@ -53666,8 +53666,8 @@
     "barrio": "SANTA LUCIA ",
     "celular": 3214744341,
     "lider": "MIRELVIS GARCIA ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "DEWIN VILLA VILLA ",
@@ -53676,8 +53676,8 @@
     "barrio": "CHIMBA",
     "celular": 3105037674,
     "lider": "ELLA ECKER ",
-    "coordinador": "ELLA ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "ELLA ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "LEIDIS MARIA CASTRO MOSQUERA",
@@ -53686,8 +53686,8 @@
     "barrio": "centro ",
     "celular": 3128796565,
     "lider": "JESUS AREIZA ",
-    "coordinador": "JESUS AREIZA ",
-    "grupo": "POLO ECKER "
+    "coordinador": "JESUS AREIZA",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "LINA MARIA VILLA POLO ",
@@ -53696,8 +53696,8 @@
     "barrio": "SANTA LUCIA ",
     "celular": 3024618329,
     "lider": "MIRELVIS GARCIA ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "SAMIR ANTONIO VENTA MARTINEZ",
@@ -53706,8 +53706,8 @@
     "barrio": "CENTRO",
     "celular": 3002364439,
     "lider": "JOSE OLIVERO ",
-    "coordinador": "JOSE OLIVERO ",
-    "grupo": "INTERNO "
+    "coordinador": "JOSE OLIVEROS",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "RENNY JOSE ESCORCIA GONZALEZ",
@@ -53717,7 +53717,7 @@
     "celular": 3018947751,
     "lider": "ADRIANA ARIZA ",
     "coordinador": "CARMELA ARIZA",
-    "grupo": "INTERNO "
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "RIGOBERTO ORTIZ SANTANA",
@@ -53726,8 +53726,8 @@
     "barrio": "PRIMAVERA ",
     "celular": 3207469354,
     "lider": "RANDYS AREVALO ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "LUZ MERY OROZCO CARDENAS",
@@ -53736,8 +53736,8 @@
     "barrio": "progreso",
     "celular": 3135410757,
     "lider": "JESUS AREIZA ",
-    "coordinador": "JESUS AREIZA ",
-    "grupo": "POLO ECKER "
+    "coordinador": "JESUS AREIZA",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "SHAROL MICHAELL OROZCO SERRANO",
@@ -53746,8 +53746,8 @@
     "barrio": "PUEBLO NUEVO ",
     "celular": 3005060093,
     "lider": "EVA VILLA ",
-    "coordinador": "ROBINSON VILLA ",
-    "grupo": "INTERNO "
+    "coordinador": "ROBINSON VILLA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "YOSALIS MANJARES RODRIGUEZ ",
@@ -53756,8 +53756,8 @@
     "barrio": "CENTRO ",
     "celular": 3008873436,
     "lider": "ZULLY BERNAL ",
-    "coordinador": "COMANDANTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "COMANDANTE",
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "LEWIS NOE OROZCO MARTINEZ",
@@ -53766,8 +53766,8 @@
     "barrio": "CENTRO ",
     "celular": 3004500668,
     "lider": "EVA VILLA ",
-    "coordinador": "ROBINSON VILLA ",
-    "grupo": "INTERNO "
+    "coordinador": "ROBINSON VILLA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "YESSICA MARGARETH GONZALEZ LINERO",
@@ -53776,8 +53776,8 @@
     "barrio": "MOCANA ",
     "celular": "NO TIENE ",
     "lider": "JOSE GUERRERO  ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "JORGE PINO SUÁREZ ",
@@ -53786,8 +53786,8 @@
     "barrio": "Soledad ",
     "celular": 3106106029,
     "lider": "RICARDO IRIARTE ",
-    "coordinador": "RICARDO IRIARTE ",
-    "grupo": "COMANDANTE "
+    "coordinador": "RICARDO IRIARTE",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "EDUARDO RAFAEL CANTILLO CASTRO",
@@ -53796,8 +53796,8 @@
     "barrio": "BARRIO ABAJO ",
     "celular": 3212462842,
     "lider": "RONALD ESCORCIA ",
-    "coordinador": "EINER ESCORCIA ",
-    "grupo": "INTERNO "
+    "coordinador": "EINER ESCORCIA",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "YAIRUBYS DAYANA ALVAREZ SANJUAN",
@@ -53806,8 +53806,8 @@
     "barrio": "centro",
     "celular": 3136907990,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "LUIS ARMANDO PAEZ HOYOS",
@@ -53816,8 +53816,8 @@
     "barrio": "barrio abajo",
     "celular": 3004965936,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "EDILBERTO  OROZCO ROJANO",
@@ -53827,7 +53827,7 @@
     "celular": 3132768213,
     "lider": "EDINSON SALCEDO",
     "coordinador": "EDINSON SALCEDO",
-    "grupo": "COMANDANTE "
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "FERNANDO JOSE GOMEZ AREVALO",
@@ -53836,8 +53836,8 @@
     "barrio": "CHIMBA ",
     "celular": 3009916528,
     "lider": "RANDYS AREVALO ",
-    "coordinador": "POLO ECKER ",
-    "grupo": "POLO ECKER "
+    "coordinador": "POLO ECKER",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "DILIA ISABEL PAEZ GARCIA",
@@ -53847,7 +53847,7 @@
     "celular": null,
     "lider": "EDINSON SALCEDO",
     "coordinador": "EDINSON SALCEDO",
-    "grupo": "COMANDANTE "
+    "grupo": "COMANDANTE"
   },
   {
     "nombreCompleto": "ANDRES MARTINEZ ROMERO",
@@ -53856,8 +53856,8 @@
     "barrio": "barrio abajo",
     "celular": 3004965936,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "MARIANGEL  MORENO ALTAMAR",
@@ -53866,8 +53866,8 @@
     "barrio": "PUEBLO NUEVO",
     "celular": 3122478894,
     "lider": "MOISES ROJANO ",
-    "coordinador": "ALEX ROJANO ",
-    "grupo": "INTERNO "
+    "coordinador": "ALEX ROJANO",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "KERVING VILLALBA SUÁREZ ",
@@ -53876,8 +53876,8 @@
     "barrio": "Soledad ",
     "celular": 3106106029,
     "lider": "RICARDO IRIARTE ",
-    "coordinador": "RICARDO IRIARTE ",
-    "grupo": "INTERNO "
+    "coordinador": "RICARDO IRIARTE",
+    "grupo": "INTERNO"
   },
   {
     "nombreCompleto": "EVA ESTER RENTERIA DE VANEGAS",
@@ -53887,7 +53887,7 @@
     "celular": 3235330061,
     "lider": "ELLA ECKER",
     "coordinador": "ELLA ECKER",
-    "grupo": "POLO ECKER "
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "YORBIS RAFAEL VANEGAS RENTERIA",
@@ -53897,7 +53897,7 @@
     "celular": 3235330061,
     "lider": "ELLA ECKER",
     "coordinador": "ELLA ECKER",
-    "grupo": "POLO ECKER "
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "JAVIER  VANEGAS MENDOZA",
@@ -53907,7 +53907,7 @@
     "celular": 3235330061,
     "lider": "ELLA ECKER",
     "coordinador": "ELLA ECKER",
-    "grupo": "POLO ECKER "
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "LEONARDO ARIZA TORRENEGRA ",
@@ -53917,7 +53917,7 @@
     "celular": 3235330061,
     "lider": "ELLA ECKER",
     "coordinador": "ELLA ECKER",
-    "grupo": "POLO ECKER "
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "CLAUDIA MARCELA GUTIERREZ ARIZA",
@@ -53926,8 +53926,8 @@
     "barrio": "PUEBLO NUEVO ",
     "celular": 3226284382,
     "lider": "JESUS AREIZA ",
-    "coordinador": "JESUS AREIZA ",
-    "grupo": "POLO ECKER "
+    "coordinador": "JESUS AREIZA",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "IRAIDA  ARIZA VARGAS",
@@ -53936,8 +53936,8 @@
     "barrio": "PUEBLO NUEVO ",
     "celular": 3226284382,
     "lider": "JESUS AREIZA ",
-    "coordinador": "JESUS AREIZA ",
-    "grupo": "POLO ECKER "
+    "coordinador": "JESUS AREIZA",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "HEBERTO DE JESUS GUTIERREZ PERTUZ",
@@ -53946,8 +53946,8 @@
     "barrio": "PUEBLO NUEVO ",
     "celular": 3226284382,
     "lider": "JESUS AREIZA ",
-    "coordinador": "JESUS AREIZA ",
-    "grupo": "POLO ECKER "
+    "coordinador": "JESUS AREIZA",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "EVER LUIS GUTIERREZ ARIZA",
@@ -53956,8 +53956,8 @@
     "barrio": "PUEBLO NUEVO ",
     "celular": 3226284382,
     "lider": "JESUS AREIZA ",
-    "coordinador": "JESUS AREIZA ",
-    "grupo": "POLO ECKER "
+    "coordinador": "JESUS AREIZA",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "DANIELA DEL CARMEN ARIZA VARGAS",
@@ -53966,8 +53966,8 @@
     "barrio": "PUEBLO NUEVO ",
     "celular": 3226284382,
     "lider": "JESUS AREIZA ",
-    "coordinador": "JESUS AREIZA ",
-    "grupo": "POLO ECKER "
+    "coordinador": "JESUS AREIZA",
+    "grupo": "POLO ECKER"
   },
   {
     "nombreCompleto": "CRISTIAN JOSE PAEZ TURIZO",
@@ -54136,7 +54136,7 @@
     "barrio": "Progreso ",
     "celular": 3135829579,
     "lider": "Ricardo Iriarte ",
-    "coordinador": "Ricardo Iriarte ",
+    "coordinador": "RICARDO IRIARTE",
     "grupo": "INTERNO"
   },
   {
@@ -54146,7 +54146,7 @@
     "barrio": "Progreso ",
     "celular": 3135829579,
     "lider": "Ricardo Iriarte ",
-    "coordinador": "Ricardo Iriarte ",
+    "coordinador": "RICARDO IRIARTE",
     "grupo": "INTERNO"
   },
   {
@@ -54156,7 +54156,7 @@
     "barrio": "Abajo",
     "celular": "302 4380703",
     "lider": "Claribel Almanza ",
-    "coordinador": "Ricardo Iriarte ",
+    "coordinador": "RICARDO IRIARTE",
     "grupo": "INTERNO"
   },
   {
